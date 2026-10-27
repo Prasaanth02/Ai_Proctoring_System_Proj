@@ -1,0 +1,40 @@
+.header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 0 24px;
+}
+
+.inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  white-space: nowrap;
+}
+
+.logoIcon { font-size: 1.3rem; }
+
+.logoAccent { color: var(--accent); }
+
+.tagline {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  border-left: 1px solid var(--border);
+  padding-left: 24px;
+}
+
+@media (max-width: 600px) {
+  .tagline { border-left: none; padding-left: 0; }
+}

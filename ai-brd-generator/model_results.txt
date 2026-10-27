@@ -1,0 +1,29 @@
+Testing free models...
+
+FAIL:  nvidia/nemotron-3.5-lightning:free
+       Error: Request timed out.
+
+WORKS: nvidia/nemotron-3-super-120b-a12b:free
+       Reply: The user asks: "Reply with only this exact JSON and nothing 
+
+FAIL:  google/gemma-4-31b-it:free
+       Error: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 
+
+FAIL:  google/gemma-4-26b-a4b-it:free
+       Error: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 
+
+FAIL:  minimax/minimax-m1:free
+       Error: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The
+
+FAIL:  minimax/minimax-m3:free
+       Error: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The
+
+FAIL:  qwen/qwen3-8b:free
+       Error: Error code: 404 - {'error': {'message': 'Qwen3 8B was deprecated on Oct 9, 2026.
+
+FAIL:  mistralai/mistral-7b-instruct:free
+       Error: Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistra
+
+FAIL:  meta-llama/llama-3.3-70b-instruct:free
+       Error: Error code: 404 - {'error': {'message': 'This model is unavailable for free. The
+

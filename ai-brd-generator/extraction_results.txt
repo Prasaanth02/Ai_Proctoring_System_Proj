@@ -1,0 +1,22 @@
+Testing: nvidia/nemotron-3-super-120b-a12b:free
+
+Raw reply:
+{
+  "business_problem": ["The company needs a leave management system."],
+  "objectives": [],
+  "stakeholders": ["HR Manager", "Employees", "IT Department"],
+  "functional_requirements": [
+    "Employees should be able to apply for leave online.",
+    "Managers must approve or reject leave requests within 2 business days.",
+    "The system must integrate with the existing payroll system."
+  ],
+  "non_functional_requirements": ["The system must be available 99.9% of the time."],
+  "business_rules
+
+--- Trying to parse JSON ---
+Parsed OK:
+  business_problem: ['The company needs a leave management system.']
+  stakeholders: ['HR Manager', 'Employees', 'IT Department']
+  functional_requirements: ['Employees should be able to apply for leave online.', 'Managers must approve or reject leave requests within 2 business days.', 'The system must integrate with the existing payroll system.']
+  non_functional_requirements: ['The system must be available 99.9% of the time.']
+  risks: ['Low user adoption if the interface is not intuitive.']

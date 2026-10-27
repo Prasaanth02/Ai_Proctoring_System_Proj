@@ -1,0 +1,54 @@
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.group { display: flex; flex-direction: column; gap: 10px; }
+
+.label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.badge {
+  font-size: 0.7rem;
+  background: rgba(245,158,11,0.15);
+  color: var(--warning);
+  padding: 2px 7px;
+  border-radius: 20px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.pills { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.pill {
+  background: var(--surface-2);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  transition: all 0.15s;
+}
+
+.pill:hover { border-color: var(--accent); color: var(--text); }
+
+.active {
+  background: var(--accent-light);
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 500;
+}
